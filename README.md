@@ -44,7 +44,7 @@ Inside any Claude Code session, type:
 /restart
 ```
 
-The session terminates, then the wrapper automatically relaunches with `--continue` so your conversation picks up where it left off.
+The session terminates, then the wrapper automatically relaunches with `--continue` so your conversation picks up where it left off. (Requires the shell wrapper — the slash command alone just terminates the session.)
 
 ## How it works
 
@@ -67,7 +67,7 @@ For a full deep dive, see [docs/how-it-works.md](docs/how-it-works.md).
 
 ## Credits
 
-Inspired by Anthony Panozzaj's blog post: [Building a reload command for Claude Code](https://www.panozzaj.com/blog/2026/02/07/building-a-reload-command-for-claude-code/).
+Inspired by Anthony Panozzo's blog post: [Building a reload command for Claude Code](https://www.panozzaj.com/blog/2026/02/07/building-a-reload-command-for-claude-code/).
 
 ## License
 

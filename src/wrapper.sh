@@ -41,4 +41,5 @@ claude() {
       break
     fi
   done
+  return $rc
 }
